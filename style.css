@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.banner {
+  width: 100%;
+  height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 160px;
+  overflow: hidden;
+}
+
+.banner-left {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.banner-left header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.banner-left header img {
+  width: 40px;
+  height: 40px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.banner-left header p {
+  color: var(--Black-black-300, #606060);
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+
+.banner-left header p strong {
+  color: var(--Black-Primary, #121212);
+  font-weight: 500;
+}
+
+.banner-content {
+  width: 100%;
+  display: flex;
+  max-width: 692px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.banner-content h1 {
+  color: #000;
+  font-family: "Plus Jakarta Sans";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -3.2px;
+}
+
+.banner-content p {
+  color: var(--Black-black-300, #606060);
+  font-family: "Plus Jakarta Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.44px;
+}
+
+.primary-button {
+  display: flex;
+  height: 52px;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.primary-button p {
+  color: var(--Red-Primary, #e41a24);
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.8px;
+  transition: all 0.3s;
+}
+
+.primary-button:hover p {
+  color: var(--Red-red-900, #600b0f);
+}
+
+.primary-button svg {
+  width: 24px;
+  height: 24px;
+  aspect-ratio: 1/1;
+}
+
+.primary-button svg path {
+  transition: all 0.3s;
+}
+
+.primary-button:hover svg path {
+  fill: #600b0f;
+}
+
+.banner-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  align-self: stretch;
+}
+
+.banner-right img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.reach {
+  display: flex;
+  width: 100%;
+  padding: 80px 160px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+  background: var(--BG, #f5f5f5);
+}
+
+.reach-container {
+  display: flex;
+  width: 100%;
+  padding: 40px 80px;
+  align-items: flex-start;
+  gap: 40px;
+  background: var(--White, #fff);
+}
+
+.reach-container a {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.reach-container a svg {
+  width: 32px;
+  height: 32px;
+  aspect-ratio: 1/1;
+  flex-shrink: 0;
+}
+
+.reach-container a svg path {
+  transition: all 0.3s;
+}
+
+.reach-container a:hover svg path {
+  fill: #600b0f;
+}
+
+.reach-container p {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  color: var(--Black-Primary, #121212);
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
+.reach-container p span {
+  color: var(--Black-black-300, #606060);
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.about {
+  display: flex;
+  width: 100%;
+  padding: 80px 160px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-left {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-self: stretch;
+}
+
+.about-left img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.about-right h2 {
+  color: var(--Red-Primary, #e41a24);
+  font-family: "Plus Jakarta Sans";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -2.56px;
+}
+
+.about-right p {
+  color: var(--Black-black-300, #606060);
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+
+.numbers {
+  width: 100%;
+  padding: 80px 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  background: var(--Red-red-600, #cf1821);
+}
+
+.numbers article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.numbers span {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -1.28px;
+}
+
+.numbers p {
+  color: var(--Black-black-50, #e7e7e7);
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -0.4px;
+}
