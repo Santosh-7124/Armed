@@ -50,6 +50,7 @@ html {
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.4px;
+  gap: 4px;
 }
 
 .banner-left header p strong {
