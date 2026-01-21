@@ -10,6 +10,7 @@ import Training from "./components/Training";
 import Contact from "./components/Contact";
 import Partnerships from "./components/Partnerships";
 import Footer from "./components/Footer";
+import Glow from "./components/Glow";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <About />
       <Numbers />
       <Services />
+      <Glow />
       <Security />
       <Hours />
       <Training />

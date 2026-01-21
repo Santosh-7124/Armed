@@ -421,6 +421,24 @@ html {
   transition: all 0.3s;
 }
 
+.glow {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  padding-top: 50px;
+  background: var(--Bunker-gray-50, #f6f7f9);
+  overflow: hidden;
+}
+
+.glow-container {
+  width: 100%;
+  height: 600px;
+  background: #fff;
+  border-radius: 50%;
+  transform: scaleX(1.5);
+  box-shadow: 0 -16px 55px 8px rgba(237, 28, 36, 0.08);
+}
+
 .security {
   width: 100%;
   display: flex;
@@ -541,6 +559,21 @@ html {
   font-weight: 600;
   line-height: 100%;
   letter-spacing: -0.48px;
+}
+
+.partnerships-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.partnerships-container img {
+  width: 172px;
+  aspect-ratio: 172/65;
+  object-fit: contain;
 }
 
 .contact {
@@ -791,4 +824,337 @@ footer hr {
 .footer-bottom a:hover {
   color: #ffbf00;
   border-bottom: 1px solid #ffbf00;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+  .mobile {
+    display: flex;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .banner {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .banner-left {
+    width: 100%;
+    padding: 80px 20px 0px 20px;
+    gap: 16px;
+  }
+
+  .banner-left header img {
+    width: 32px;
+    height: 32px;
+    aspect-ratio: 1/1;
+  }
+
+  .banner-left header p {
+    color: var(--Black-black-300, #606060);
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.32px;
+  }
+
+  .banner-content h1 {
+    color: #000;
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.28px;
+  }
+
+  .banner-content p {
+    color: var(--Black-black-300, #606060);
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.72px;
+  }
+
+  .banner-right {
+    width: 100%;
+  }
+
+  .banner-right img {
+    height: 100%;
+  }
+
+  .reach {
+    padding: 48px 20px;
+  }
+
+  .reach-container {
+    padding: 40px 40px;
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .reach-container p {
+    font-size: 16px;
+  }
+
+  .about {
+    padding: 48px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .about-left {
+    width: 100%;
+  }
+
+  .about-right {
+    width: 100%;
+  }
+
+  .about-right h2 {
+    color: var(--Red-Primary, #e41a24);
+    font-family: "Plus Jakarta Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -1.44px;
+  }
+
+  .about-right p {
+    color: var(--Black-black-300, #606060);
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.32px;
+  }
+
+  .numbers {
+    padding: 48px 20px;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .numbers span {
+    font-family: "Plus Jakarta Sans";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -0.88px;
+  }
+
+  .numbers p {
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -0.4px;
+  }
+
+  .services {
+    padding: 48px 20px;
+    gap: 32px;
+  }
+
+  .services h2 {
+    color: var(--Grey-grey-300, #a7a7a7);
+    font-family: "Plus Jakarta Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -0.72px;
+  }
+
+  .services-buttons {
+    display: none;
+  }
+
+  .services-slider {
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .services-slider::-webkit-scrollbar {
+    display: none;
+  }
+
+  .services-set {
+    width: 80%;
+  }
+
+  .services-set p {
+    color: var(--Black-black-300, #606060);
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.32px;
+  }
+
+  .services-progress-bar {
+    display: none;
+  }
+
+  .glow-container {
+    height: 300px;
+  }
+
+  .security {
+    padding: 48px 20px;
+    gap: 36px;
+  }
+
+  .security header {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+
+  .security header h2 {
+    color: var(--Black-Primary, #121212);
+    font-family: "Plus Jakarta Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.44px;
+  }
+
+  .security header p {
+    width: 100%;
+    color: var(--Grey-grey-600, #707070);
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.56px;
+  }
+
+  .security-container {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .security-img {
+    width: 100%;
+  }
+
+  .security-text {
+    width: 100%;
+    gap: 16px;
+  }
+
+  .security-text p {
+    font-size: 16px;
+  }
+
+  .hours-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .partnerships {
+    padding: 48px 20px;
+  }
+
+  .partnerships-container {
+    gap: 16px;
+  }
+
+  .partnerships-container img {
+    width: 100px;
+  }
+
+  .contact {
+    padding: 48px 20px;
+  }
+
+  .contact-container {
+    padding: 0;
+    flex-direction: column;
+    background: none;
+    gap: 32px;
+  }
+
+  .contact-left header h2 {
+    color: var(--Black-Primary, #121212);
+    font-family: "Plus Jakarta Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.44px;
+  }
+
+  .contact-left header p {
+    color: var(--Grey-grey-600, #707070);
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.56px;
+  }
+
+  .contact-form {
+    gap: 32px;
+  }
+
+  .contact-form-inputs-container {
+    flex-direction: column;
+  }
+
+  footer {
+    padding: 48px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .footer-top img {
+    width: 48px;
+    height: 48px;
+    aspect-ratio: 1/1;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+  }
 }

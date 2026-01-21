@@ -8,8 +8,11 @@ function Banner() {
       <div className="banner-left">
         <header>
           <img src={Logo} alt="Armed Fire Service" />
-          <p>
+          <p className="desktop">
             Managing Director at <strong>Armed Fire Service, India</strong>
+          </p>
+          <p className="mobile">
+            Owner at <strong>Armed Fire Service, India</strong>
           </p>
         </header>
         <div className="banner-content">
