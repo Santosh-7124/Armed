@@ -23,11 +23,33 @@ import Skyline from "../assets/Partnerships/Skyline.png";
 import Smoor from "../assets/Partnerships/Smoor.png";
 import Varada from "../assets/Partnerships/Varada.png";
 import Toyota from "../assets/Partnerships/Toyota.png";
+import Nippon from "../assets/Partnerships/Nippon.png";
+import ToyotaAuto from "../assets/Partnerships/ToyotaAuto.png";
+import INOX from "../assets/Partnerships/INOX.png";
+import ANZ from "../assets/Partnerships/ANZ.png";
+import Karle from "../assets/Partnerships/Karle.png";
+import Elina from "../assets/Partnerships/Elina.png";
+import Phoenix from "../assets/Partnerships/Phoenix.png";
+import RMZ from "../assets/Partnerships/RMZ.png";
+import One from "../assets/Partnerships/One.png";
+import Palladium from "../assets/Partnerships/Palladium.png";
+import Flipkart from "../assets/Partnerships/Flipkart.png";
+import Bonito from "../assets/Partnerships/Bonito.png";
+import RNS from "../assets/Partnerships/RNS.png";
+import Badve from "../assets/Partnerships/Badve.png";
+import CureFit from "../assets/Partnerships/CureFit.png";
+import Snn from "../assets/Partnerships/Snn.png";
+import Ginserv from "../assets/Partnerships/Ginserv.png";
+import Forum from "../assets/Partnerships/Forum.png";
+import Trust from "../assets/Partnerships/Trust.png";
+import Orion from "../assets/Partnerships/Orion.png";
+import CloudNine from "../assets/Partnerships/CloudNine.png";
 
 function Partnerships() {
   return (
     <section className="partnerships">
       <h2>Our Partnerships</h2>
+
       <div className="partnerships-container">
         <img src={PVR} alt="PVR Cinemas" />
         <img src={Brita} alt="Brita" />
@@ -53,6 +75,27 @@ function Partnerships() {
         <img src={Smoor} alt="Smoor" />
         <img src={Varada} alt="Varada" />
         <img src={Toyota} alt="Toyota" />
+        <img src={Nippon} alt="Nippon" />
+        <img src={ToyotaAuto} alt="Toyota Auto" />
+        <img src={INOX} alt="INOX" />
+        <img src={ANZ} alt="ANZ" />
+        <img src={Karle} alt="Karle" />
+        <img src={Elina} alt="Elina" />
+        <img src={Phoenix} alt="Phoenix" />
+        <img src={RMZ} alt="RMZ" />
+        <img src={One} alt="One" />
+        <img src={Palladium} alt="Palladium" />
+        <img src={Flipkart} alt="Flipkart" />
+        <img src={Bonito} alt="Bonito" />
+        <img src={RNS} alt="RNS" />
+        <img src={Badve} alt="Badve" />
+        <img src={CureFit} alt="CureFit" />
+        <img src={Snn} alt="SNN" />
+        <img src={Ginserv} alt="Ginserv" />
+        <img src={Forum} alt="Forum" />
+        <img src={Trust} alt="Trust" />
+        <img src={Orion} alt="Orion" />
+        <img src={CloudNine} alt="CloudNine" />
       </div>
     </section>
   );

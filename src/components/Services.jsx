@@ -78,8 +78,7 @@ function Services() {
   return (
     <section className="services">
       <h2>
-        We provide following <br className="desktop" />
-        <span>Range of Services & Installations.</span>
+        We provide followingWe Provide Following <span> Range of Training, Fire audit and Certifications</span>
       </h2>
 
       <div className="services-buttons">

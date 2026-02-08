@@ -78,8 +78,7 @@ function Training() {
   return (
     <section className="services">
       <h2>
-        We provide following <br className="desktop" />
-        <span>Range of Services & Installations.</span>
+        Armed Fire <span>will give Trainings</span>
       </h2>
 
       <div className="services-buttons">
